@@ -14,7 +14,7 @@ Installation
 
     pip install django-pipeline-eco
 
-And add it as a compiler to pipeline in your django `settings.py`.
+Add these lines in your django `settings.py`:
 
 .. code-block:: python
 

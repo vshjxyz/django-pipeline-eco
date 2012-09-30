@@ -6,7 +6,7 @@ with open('README.rst') as file:
 
 setup(
     name='django-pipeline-eco',
-    version='0.1.2',
+    version='0.1.4',
     description='django-pipeline compiler for eco templates',
     long_description=description,
     author='Luca Del Bianco',

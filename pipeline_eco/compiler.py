@@ -19,7 +19,7 @@ class EcoCompiler(CompilerBase):
 
     def _template_name(self, infile):
         p = infile.split("/")[::-1]
-        return os.path.join(p[1], p[0].split(".")[0])
+        return os.path.join(p[2], p[1], p[0].split(".")[0])
 
     def save_file(self, path, content):
         return open(path, 'w').write(smart_str(content))
